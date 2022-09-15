@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "计算机组成原理/计算机组成原理-第五讲.md",
+            "file": "计算机组成原理/第三章 系统总线.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机组成原理/计算机组成原理-第五讲.md",
+                "file": "计算机组成原理/第三章 系统总线.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机组成原理/计算机组成原理-第五讲.md",
+                "file": "计算机组成原理/第三章 系统总线.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机组成原理/计算机组成原理-第五讲.md"
+                "file": "计算机组成原理/第三章 系统总线.md"
               }
             }
           }
@@ -128,10 +128,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8a4b8193144e481c",
+  "active": "672f66d7a432d1f2",
   "lastOpenFiles": [
     "README.md",
-    "计算机组成原理/计算机组成原理-第五讲.md",
+    "计算机组成原理/第三章 系统总线.md",
     "2022-09-15.md"
   ]
 }

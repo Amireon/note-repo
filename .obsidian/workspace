@@ -4,17 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "071b812834aa83a9",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "计算机组成原理/第三章 系统总线.md"
-          }
-        },
-        "group": "86897c636a688859"
-      },
-      {
         "id": "8a4b8193144e481c",
         "type": "leaf",
         "state": {
@@ -24,8 +13,7 @@
             "mode": "source",
             "source": false
           }
-        },
-        "group": "86897c636a688859"
+        }
       }
     ],
     "direction": "vertical"
@@ -73,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273
+    "width": 171,
+    "collapsed": true
   },
   "right": {
     "id": "3bf1196ed50dd6c4",
@@ -148,10 +137,13 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "8a4b8193144e481c",
+  "active": "b109501ee6091240",
   "lastOpenFiles": [
-    "README.md",
     "计算机组成原理/第三章 系统总线.md",
+    "Pasted image 20220915140413.png",
+    "Pasted image 20220915135541.png",
+    "Pasted image 20220915140050.png",
+    "README.md",
     "2022-09-15.md"
   ]
 }

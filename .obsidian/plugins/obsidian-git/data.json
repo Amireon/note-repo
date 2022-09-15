@@ -19,7 +19,7 @@
   "refreshSourceControl": true,
   "basePath": "",
   "differentIntervalCommitAndPush": true,
-  "changedFilesInStatusBar": false,
+  "changedFilesInStatusBar": true,
   "username": "",
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000

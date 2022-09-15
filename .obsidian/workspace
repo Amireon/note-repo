@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "计算机组成原理/计算机组成原理-第五讲.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "计算机组成原理/计算机组成原理-第五讲.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "计算机组成原理/计算机组成原理-第五讲.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "计算机组成原理/计算机组成原理-第五讲.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "8a4b8193144e481c",
   "lastOpenFiles": [
+    "README.md",
     "计算机组成原理/计算机组成原理-第五讲.md",
     "2022-09-15.md"
   ]

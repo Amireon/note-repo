@@ -1,3 +1,5 @@
-# Obisdian-repo
+# Note-repo
 
-这是 `obisdian`的仓库，作为云同步使用
+云上的笔记仓库( `obisdian`)，现有更新如下：
+
+

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "数学建模竞赛/2022年国赛C题.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "数学建模竞赛/2022年国赛C题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "数学建模竞赛/2022年国赛C题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "数学建模竞赛/2022年国赛C题.md"
               }
             }
           },
@@ -130,20 +130,21 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b109501ee6091240",
+  "active": "8a4b8193144e481c",
   "lastOpenFiles": [
+    "数学建模竞赛/2022国赛C题_2.2_亚类划分.md",
     "数学建模竞赛/2022年国赛C题.md",
+    "README.md",
     "计算机组成原理/第三章 系统总线.md",
     "Pasted image 20220915140413.png",
     "Pasted image 20220915135541.png",
     "Pasted image 20220915140050.png",
-    "README.md",
     "2022-09-15.md"
   ]
 }

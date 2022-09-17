@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "数学建模竞赛/2022年国赛C题.md",
+            "file": "2022年国赛C题/1.3预测化学成分.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学建模竞赛/2022年国赛C题.md",
+                "file": "2022年国赛C题/1.3预测化学成分.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学建模竞赛/2022年国赛C题.md",
+                "file": "2022年国赛C题/1.3预测化学成分.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学建模竞赛/2022年国赛C题.md"
+                "file": "2022年国赛C题/1.3预测化学成分.md"
               }
             }
           },
@@ -130,16 +130,17 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "8a4b8193144e481c",
+  "active": "b109501ee6091240",
   "lastOpenFiles": [
-    "数学建模竞赛/2022国赛C题_2.2_亚类划分.md",
-    "数学建模竞赛/2022年国赛C题.md",
+    "2022年国赛C题/国赛C题思路.md",
+    "2022年国赛C题/2.2 亚类划分.md",
+    "2022年国赛C题/1.3预测化学成分.md",
     "README.md",
     "计算机组成原理/第三章 系统总线.md",
     "Pasted image 20220915140413.png",

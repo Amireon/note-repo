@@ -1,5 +1,5 @@
 {
   "cssTheme": "Blue Topaz",
-  "theme": "obsidian",
-  "translucency": true
+  "theme": "system",
+  "translucency": false
 }

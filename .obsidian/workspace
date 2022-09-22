@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "大数据分析方法/区块链文献综述.md",
+            "file": "计算机组成原理/第四章 存储器.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大数据分析方法/区块链文献综述.md",
+                "file": "计算机组成原理/第四章 存储器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大数据分析方法/区块链文献综述.md",
+                "file": "计算机组成原理/第四章 存储器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大数据分析方法/区块链文献综述.md"
+                "file": "计算机组成原理/第四章 存储器.md"
               }
             }
           },
@@ -137,7 +137,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -145,11 +146,11 @@
   },
   "active": "82e3cee1362909a5",
   "lastOpenFiles": [
-    "[[^f9be35]].md",
-    "大数据分析方法/区块链文献综述.md",
-    "[[.md",
     "计算机组成原理/第三章 系统总线.md",
     "计算机组成原理/第四章 存储器.md",
+    "大数据分析方法/区块链文献综述.md",
+    "[[^f9be35]].md",
+    "[[.md",
     "Elasticsearch/第2章 Elasticsearch 入门.md",
     "2022年国赛C题/2.2 亚类划分.md",
     "2022-09-21.md",

@@ -128,25 +128,32 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "26bd1d7569b46579",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "672f66d7a432d1f2",
+  "active": "82e3cee1362909a5",
   "lastOpenFiles": [
-    "计算机组成原理/第四章 存储器.md",
+    "[[^f9be35]].md",
+    "大数据分析方法/区块链文献综述.md",
+    "[[.md",
     "计算机组成原理/第三章 系统总线.md",
+    "计算机组成原理/第四章 存储器.md",
     "Elasticsearch/第2章 Elasticsearch 入门.md",
     "2022年国赛C题/2.2 亚类划分.md",
-    "大数据分析方法/区块链文献综述.md",
     "2022-09-21.md",
     "2022年国赛C题/国赛C题思路.md",
-    "2022年国赛C题/1.3预测化学成分.md",
-    "README.md",
-    "Pasted image 20220915140050.png.md"
+    "2022年国赛C题/1.3预测化学成分.md"
   ]
 }

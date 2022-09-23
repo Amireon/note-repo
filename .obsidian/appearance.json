@@ -1,5 +1,7 @@
 {
   "cssTheme": "Blue Topaz",
   "theme": "moonstone",
-  "translucency": false
+  "translucency": false,
+  "textFontFamily": "MesloLGS NF",
+  "monospaceFontFamily": "MesloLGS NF"
 }

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "计算机组成原理/第四章 存储器.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机组成原理/第四章 存储器.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机组成原理/第四章 存储器.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机组成原理/第四章 存储器.md"
+                "file": "README.md"
               }
             }
           },
@@ -138,13 +138,13 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "fbfe4d772349f9e5",
+  "active": "b109501ee6091240",
   "lastOpenFiles": [
     "计算机组成原理/第四章 存储器.md",
     "大数据分析方法/区块链文献综述.md",

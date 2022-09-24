@@ -1,13 +1,19 @@
-# Note-repo
+<div align="center">
 
-云上的笔记仓库( `obisdian`)，现有更新如下：
+<img alt="LOGO" src="https://raw.githubusercontent.com/Anlieh/PicBucket/master/202209241014293.png" />
+
+</div>
+
+# 笔记存档
+
+云上的笔记仓库(obisdian)，现有更新如下：
 
 ## 计算机组成原理
 使用的教材:     高等教育出版社
 - 第一章  
 - 第二章  
 - 第三章 系统总线
-- 第四章 
+- 第四章 存储器
 
 ## Elasticsearch 全文搜索
 - 第 2 章 Elasticserch 入门

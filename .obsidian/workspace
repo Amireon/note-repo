@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 171
+    "width": 174
   },
   "right": {
     "id": "3bf1196ed50dd6c4",
@@ -144,17 +144,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b109501ee6091240",
+  "active": "fbfe4d772349f9e5",
   "lastOpenFiles": [
-    "计算机组成原理/第四章 存储器.md",
-    "大数据分析方法/区块链文献综述.md",
-    "计算机组成原理/第三章 系统总线.md",
+    "Elasticsearch/第7章 Elasticsearch面试题.md",
+    "Elasticsearch/第6章 Elasticsearch优化.md",
+    "Elasticsearch/第5章 Elasticsearch集成.md",
     "Elasticsearch/第2章 Elasticsearch 入门.md",
-    "[.md",
-    "[[^f9be35]].md",
-    "[[.md",
-    "2022年国赛C题/2.2 亚类划分.md",
-    "2022-09-21.md",
-    "2022年国赛C题/国赛C题思路.md"
+    "README.md",
+    "Elasticsearch/第4章 Elasticsearch进阶.md",
+    "Elasticsearch/第3章 Elasticsearch环境搭建.md",
+    "第 2 章 Elasticserch 入门.md",
+    "计算机组成原理/第四章 存储器.md",
+    "大数据分析方法/区块链文献综述.md"
   ]
 }

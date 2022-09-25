@@ -47,3 +47,24 @@ kill -9  进程号PID         # kill PID 来删除。
 ```
 
 ## screen
+screen 可以提供从单个 SSH 会话中使用多个 shell 窗口（会话）。
+当会话被分离或网络中断时，screen 会话中启动的进程仍将运行，你可以随时重新连接到 screen 会话。
+
+### 检查安装
+screen 在一些流行的发行版上已经预安装了，检查是否已经安装。
+```shell
+screen -v
+# 输出：Screen version 4.00.03 (FAU)
+```
+
+如果在 Linux 中还没有 screen，可以使用系统提供的包管理器安装。
+**CentOS/RedHat/Fedora**
+```
+yum -y install screen
+```
+
+**Ubuntu/Debian**
+```shell
+apt-get -y install screen
+```
+

@@ -1,7 +1,6 @@
 # Http 和 JavaAPI 入门
 ## JavaAPI操作
-
-添加 `maven` 依赖
+**首要：** 添加 `maven` 依赖
 ```xml
 <dependencies>
     <dependency>
@@ -9,10 +8,11 @@
         <artifactId>elasticsearch</artifactId>
         <version>7.8.0</version>
     </dependency>
-    <!-- elasticsearch 的客户端 -->
+    <!-- elasticsearch 客户端 -->
     <dependency>
         <groupId>org.elasticsearch.client</groupId>
-        <artifactId>elasticsearch-rest-high-level-client</artifactId>
+        <artifactId>elasticsearch-rest-high-level-
+			client</artifactId>
         <version>7.8.0</version>
     </dependency>
     <!-- elasticsearch 依赖 2.x 的 log4j -->
@@ -31,16 +31,10 @@
         <artifactId>jackson-databind</artifactId>
         <version>2.9.9</version>
     </dependency>
-    <!-- junit 单元测试 -->
-    <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.12</version>
-    </dependency>
 </dependencies>
 ```
 
-Hello, world! 案例
+Hello, world 案例
 ```java
 public class HelloElasticsearch {
 	public static void main(String[] args) throws IOExcepiton {
@@ -127,12 +121,9 @@ client.close();
 四月 09, 2021 2:12:08 下午 org.elasticsearch.client.RestClient logResponse
 警告: request [PUT http://localhost:9200/user2?master_timeout=30s&include_type_name=true&timeout=30s] returned 1 warnings: [299 Elasticsearch-7.8.0-757314695644ea9a1dc2fecd26d1a43856725e65 "[types removal] Using include_type_name in create index requests is deprecated. The parameter will be removed in the next major version."]
 操作状态 = true
-
-Process finished with exit code 0
 ```
 
 #### 查询
-
 ```java
 RestHighLevelClient client = new RestHighLevelClient(  
         RestClient.builder(new HttpHost("localhost",9200, "http"))  
@@ -178,8 +169,6 @@ client.close();
 控制台输出:
 ```
 操作结果: true
-
-Process finished with exit code 0
 ```
 
 ### 文档
@@ -230,13 +219,13 @@ ConnectElasticsearch.connect(client -> {
     request.doc(XContentType.JSON, "sex", "女");
     
     // 客户端发送请求，获取响应对象
-    UpdateResponse response = client.update(request, RequestOptions.DEFAULT);
+    UpdateResponse response = client.update(request, 
+	    RequestOptions.DEFAULT);
     
     System.out.println("_index:" + response.getIndex());
     System.out.println("_id:" + response.getId());
     System.out.println("_result:" + response.getResult());
 });
-
 ```
 
 控制台输出:
@@ -245,3 +234,175 @@ _index:user
 _id:1001
 _result:UPDATED
 ```
+
+#### 查询
+```java
+ConnectElasticsearch.connect(client -> {
+	// 1) 创建请求对象
+	GetRequest request = new GetRequest().index("user").id("1001");
+
+	// 2) 客户端发送请求: 获取响应
+	GetResponse response = client.get(request, 
+		ReqestOptions.DEFAULT);
+
+	// 3) 结果信息
+	System.out.println("_index:" + response.getIndex());
+    System.out.println("_type:" + response.getType());
+    System.out.println("_id:" + response.getId());
+    System.out.println("source:" + response.getSourceAsString());
+})
+
+```
+
+控制台输出：
+```log
+_index:user
+_type:_doc
+_id:1001
+source:{"name":"zhangsan","age":30,"sex":"男"}
+```
+
+#### 删除
+```java
+ConnnectElasticsearch.connect(client -> {
+	// 1) 创建请求对象
+	DeleteRequest request = new DeleteRequest()
+							.index("user").id("1001");
+
+	// 2) 客户端发送请求：获取响应
+	client.delete(request, RequestOptions.DEFAULT);
+
+	// 3) 打印结果
+	System.out.println(response.toString());
+})
+```
+
+控制台输出：
+```log
+DeleteResponse[index=user,type=_doc,id=1001,version=16,result=deleted,shards=ShardInfo{total=2, successful=1, failures=[]}]
+```
+
+### 文档批量
+#### 批量新增
+```java
+ ConnectElasticsearch.connect(client -> {
+    // 1) 创建批量新增请求对象
+    BulkRequest request = new BulkRequest();
+    request.add(new IndexRequest().index("user").id("1001")
+	    .source(XContentType.JSON, "name", "zhangsan"));
+    request.add(new IndexRequest().index("user").id("1002")
+        .source(XContentType.JSON, "name", "lisi"));
+    request.add(newIndexRequest().index("user").id("1003")
+	    .source(XContentType.JSON, "name", "wangwu"));
+   
+	// 2) 客户端发送请求: 获取响应对象
+    BulkResponse responses = client.bulk(request, 
+		RequestOptions.DEFAULT);
+    
+    // 3) 打印结果信息
+    System.out.println("took:" + responses.getTook());
+    System.out.println("items:" + responses.getItems());
+});
+```
+
+控制台输出
+```log
+took:294ms
+items:[Lorg.elasticsearch.action.bulk.BulkItemResponse;@2beee7ff]
+```
+
+#### 批量删除
+```java
+ConnectElasticsearch.connect(client -> {
+    // 1) 创建批量删除请求对象
+	BulkRequest request = new BulkRequest();
+	request.add(new DeleteRequest().index("user").id("1001"));
+	request.add(new DeleteRequest().index("user").id("1002"));
+	request.add(new DeleteRequest().index("user").id("1003"));
+    // 2) 客户端发送请求，获取响应对象
+	BulkResponse responses = client.bulk(request,
+							RequestOptions.DEFAULT);
+	// 3) 打印结果信息
+    System.out.println("took:" + responses.getTook());
+    System.out.println("items:" + responses.getItems());
+});
+```
+
+控制台输出
+```log
+took:108ms
+items:[Lorg.elasticsearch.action.bulk.BulkItemResponse;@7b02881e]
+```
+
+### 文档高级查询
+#### 全量查询
+```java
+ConnectElasticsearch.connect(client -> {
+    // 创建搜索请求对象
+    SearchRequest request = new SearchRequest().indices("user");
+    
+    // 构建查询的请求体
+    SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+    
+    // 查询所有数据
+    sourceBuilder.query(QueryBuilders.matchAllQuery());
+    request.source(sourceBuilder);
+    SearchResponse response = client.search(request, 
+    RequestOptions.DEFAULT);
+    
+    // 查询匹配
+    SearchHits hits = response.getHits();
+    System.out.println("took:" + response.getTook());
+    System.out.println("timeout:" + response.isTimedOut());
+    System.out.println("total:" + hits.getTotalHits());
+    System.out.println("MaxScore:" + hits.getMaxScore());
+    System.out.println("hits========>>");
+    //输出每条查询的结果信息
+    for (SearchHit hit : hits) {
+            System.out.println(hit.getSourceAsString());
+        }
+	System.out.println("<<========");
+});
+```
+
+控制台输出：
+```log
+took:2ms
+timeout:false
+total:6 hits
+MaxScore:1.0
+hits========>>
+{"name":"zhangsan","age":"10","sex":"女"}
+{"name":"lisi","age":"30","sex":"女"}
+{"name":"wangwu1","age":"40","sex":"男"}
+{"name":"wangwu2","age":"20","sex":"女"}
+{"name":"wangwu3","age":"50","sex":"男"}
+{"name":"wangwu4","age":"20","sex":"男"}
+<<======== 
+```
+
+#### 条件查询
+
+
+#### 分页查询
+
+
+#### 查询排序
+
+
+#### 组合查询
+
+
+#### 范围查询
+
+
+#### 模糊查询
+
+
+#### 高亮查询
+
+
+#### 最大值查询
+
+
+#### 分组查询

@@ -382,27 +382,452 @@ hits========>>
 ```
 
 #### 条件查询
+```java
+public class QueryDoc {
+	public static final ElasticsearchTask SEARCH_BY_CONDITION = 
+		client -> {
+		 // 创建搜索请求对象
+        SearchRequest request = new SearchRequest();
+        request.indices("user");
+        // 构建查询的请求体
+    SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        sourceBuilder.query(QueryBuilders.termQuery("age", "30"));
+        request.source(sourceBuilder);
+        SearchResponse response = client.search(request, 
+	        RequestOptions.DEFAULT);
+        // 查询匹配
+        SearchHits hits = response.getHits();
+        System.out.println("took:" + response.getTook());
+        System.out.println("timeout:" + response.isTimedOut());
+        System.out.println("total:" + hits.getTotalHits());
+        System.out.println("MaxScore:" + hits.getMaxScore());
+        System.out.println("hits========>>");
+        //输出每条查询的结果信息
+        for (SearchHit hit : hits) {
+            System.out.println(hit.getSourceAsString());
+        }
+        System.out.println("<<============");	
+	}
 
+	public static void main(String[] args) { 
+		ConnectElasticsearch.connect(SEARCH_BY_CONDITION); 
+	}
+}
+```
+
+控制台输出：
+```
+took:1ms
+timeout:false
+total:1 hits
+MaxScore:1.0
+hits========>>
+{"name":"lisi","age":"30","sex":"女"}
+<<============
+```
 
 #### 分页查询
+```java
+public class QueryDoc {
+    
+	public static final ElasticsearchTask SEARCH_BY_PAGING = client -> {
+        // 创建搜索请求对象
+        SearchRequest request = new SearchRequest();
+        request.indices("user");
+        // 构建查询的请求体
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        sourceBuilder.query(QueryBuilders.matchAllQuery());
+        // 分页查询
+        // 当前页其实索引(第一条数据的顺序号)， from
+        sourceBuilder.from(0);
 
+        // 每页显示多少条 size
+        sourceBuilder.size(2);
+        request.source(sourceBuilder);
+        SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+        // 查询匹配
+        SearchHits hits = response.getHits();
+        System.out.println("took:" + response.getTook());
+        System.out.println("timeout:" + response.isTimedOut());
+        System.out.println("total:" + hits.getTotalHits());
+        System.out.println("MaxScore:" + hits.getMaxScore());
+        System.out.println("hits========>>");
+        for (SearchHit hit : hits) {
+            //输出每条查询的结果信息
+            System.out.println(hit.getSourceAsString());
+        }
+        System.out.println("<<========");
+    };
+    
+    public static void main(String[] args) {
+        ConnectElasticsearch.connect(SEARCH_BY_CONDITION);
+    }
+
+}
+```
+
+控制台输出
+```
+took:1ms
+timeout:false
+total:6 hits
+MaxScore:1.0
+hits========>>
+{"name":"zhangsan","age":"10","sex":"女"}
+{"name":"lisi","age":"30","sex":"女"}
+<<========
+
+```
 
 #### 查询排序
+```java
+public class QueryDoc {
+    
+	public static final ElasticsearchTask SEARCH_WITH_ORDER = client -> {
+        // 创建搜索请求对象
+        SearchRequest request = new SearchRequest();
+        request.indices("user");
 
+        // 构建查询的请求体
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        sourceBuilder.query(QueryBuilders.matchAllQuery());
+        // 排序
+        sourceBuilder.sort("age", SortOrder.ASC);
+        request.source(sourceBuilder);
+        SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+        // 查询匹配
+        SearchHits hits = response.getHits();
+        System.out.println("took:" + response.getTook());
+        System.out.println("timeout:" + response.isTimedOut());
+        System.out.println("total:" + hits.getTotalHits());
+        System.out.println("MaxScore:" + hits.getMaxScore());
+        System.out.println("hits========>>");
+        for (SearchHit hit : hits) {
+        //输出每条查询的结果信息
+            System.out.println(hit.getSourceAsString());
+        }
+        System.out.println("<<========");
+    };
+
+    public static void main(String[] args) {
+        ConnectElasticsearch.connect(SEARCH_WITH_ORDER);
+    }
+
+}
+```
+
+控制台输出
+```
+took:1ms
+timeout:false
+total:6 hits
+MaxScore:NaN
+hits========>>
+{"name":"zhangsan","age":"10","sex":"女"}
+{"name":"wangwu2","age":"20","sex":"女"}
+{"name":"wangwu4","age":"20","sex":"男"}
+{"name":"lisi","age":"30","sex":"女"}
+{"name":"wangwu1","age":"40","sex":"男"}
+{"name":"wangwu3","age":"50","sex":"男"}
+<<========
+
+```
 
 #### 组合查询
+```java
+public class QueryDoc {
+    
+	public static final ElasticsearchTask SEARCH_BY_BOOL_CONDITION = client -> {
+        // 创建搜索请求对象
+        SearchRequest request = new SearchRequest();
+        request.indices("user");
+        // 构建查询的请求体
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
+        // 必须包含
+        boolQueryBuilder.must(QueryBuilders.matchQuery("age", "30"));
+        // 一定不含
+        boolQueryBuilder.mustNot(QueryBuilders.matchQuery("name", "zhangsan"));
+        // 可能包含
+        boolQueryBuilder.should(QueryBuilders.matchQuery("sex", "男"));
+        sourceBuilder.query(boolQueryBuilder);
+        request.source(sourceBuilder);
+        SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+        // 查询匹配
+        SearchHits hits = response.getHits();
+        System.out.println("took:" + response.getTook());
+        System.out.println("timeout:" + response.isTimedOut());
+        System.out.println("total:" + hits.getTotalHits());
+        System.out.println("MaxScore:" + hits.getMaxScore());
+        System.out.println("hits========>>");
+        for (SearchHit hit : hits) {
+            //输出每条查询的结果信息
+            System.out.println(hit.getSourceAsString());
+        }
+        System.out.println("<<========");
 
+    };
+
+    public static void main(String[] args) {
+        ConnectElasticsearch.connect(SEARCH_BY_BOOL_CONDITION);
+    }
+}
+
+```
+
+控制台输出
+```
+took:28ms
+timeout:false
+total:1 hits
+MaxScore:1.0
+hits========>>
+{"name":"lisi","age":"30","sex":"女"}
+<<========
+
+Process finished with exit code 0
+
+```
 
 #### 范围查询
+```java
+public class QueryDoc {
+    
+	public static final ElasticsearchTask SEARCH_BY_RANGE = client -> {
+        // 创建搜索请求对象
+        SearchRequest request = new SearchRequest();
+        request.indices("user");
+        // 构建查询的请求体
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        RangeQueryBuilder rangeQuery = QueryBuilders.rangeQuery("age");
+        // 大于等于
+        //rangeQuery.gte("30");
+        // 小于等于
+        rangeQuery.lte("40");
+        sourceBuilder.query(rangeQuery);
+        request.source(sourceBuilder);
+        SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+        // 查询匹配
+        SearchHits hits = response.getHits();
+        System.out.println("took:" + response.getTook());
+        System.out.println("timeout:" + response.isTimedOut());
+        System.out.println("total:" + hits.getTotalHits());
+        System.out.println("MaxScore:" + hits.getMaxScore());
+        System.out.println("hits========>>");
+        for (SearchHit hit : hits) {
+        //输出每条查询的结果信息
+            System.out.println(hit.getSourceAsString());
+        }
+        System.out.println("<<========");
+    };
 
+    public static void main(String[] args) {
+        ConnectElasticsearch.connect(SEARCH_BY_RANGE);
+    }
+
+}
+```
+
+控制台输出
+```
+took:1ms
+timeout:false
+total:5 hits
+MaxScore:1.0
+hits========>>
+{"name":"zhangsan","age":"10","sex":"女"}
+{"name":"lisi","age":"30","sex":"女"}
+{"name":"wangwu1","age":"40","sex":"男"}
+{"name":"wangwu2","age":"20","sex":"女"}
+{"name":"wangwu4","age":"20","sex":"男"}
+<<========
+
+Process finished with exit code 0
+
+```
 
 #### 模糊查询
+```java
+public class QueryDoc {
+    
+    public static final ElasticsearchTask SEARCH_BY_FUZZY_CONDITION = client -> {
+        // 创建搜索请求对象
+        SearchRequest request = new SearchRequest();
+        request.indices("user");
+        // 构建查询的请求体
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        sourceBuilder.query(QueryBuilders.fuzzyQuery("name","wangwu").fuzziness(Fuzziness.ONE));
+        request.source(sourceBuilder);
+        SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+        // 查询匹配
+        SearchHits hits = response.getHits();
+        System.out.println("took:" + response.getTook());
+        System.out.println("timeout:" + response.isTimedOut());
+        System.out.println("total:" + hits.getTotalHits());
+        System.out.println("MaxScore:" + hits.getMaxScore());
+        System.out.println("hits========>>");
+        for (SearchHit hit : hits) {
+            //输出每条查询的结果信息
+            System.out.println(hit.getSourceAsString());
+        }
+        System.out.println("<<========");
+    };
 
+
+    public static void main(String[] args) {
+//        ConnectElasticsearch.connect(SEARCH_ALL);
+//        ConnectElasticsearch.connect(SEARCH_BY_CONDITION);
+//        ConnectElasticsearch.connect(SEARCH_BY_PAGING);
+//        ConnectElasticsearch.connect(SEARCH_WITH_ORDER);
+//        ConnectElasticsearch.connect(SEARCH_BY_BOOL_CONDITION);
+//        ConnectElasticsearch.connect(SEARCH_BY_RANGE);
+        ConnectElasticsearch.connect(SEARCH_BY_FUZZY_CONDITION);
+    }
+
+}
+```
+
+控制台输出
+```
+took:152ms
+timeout:false
+total:4 hits
+MaxScore:1.2837042
+hits========>>
+{"name":"wangwu1","age":"40","sex":"男"}
+{"name":"wangwu2","age":"20","sex":"女"}
+{"name":"wangwu3","age":"50","sex":"男"}
+{"name":"wangwu4","age":"20","sex":"男"}
+<<========
+
+Process finished with exit code 0
+
+```
 
 #### 高亮查询
+```java
+public class QueryDoc {
+    
+    public static final ElasticsearchTask SEARCH_WITH_HIGHLIGHT = client -> {
+        // 高亮查询
+        SearchRequest request = new SearchRequest().indices("user");
+        //2.创建查询请求体构建器
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        //构建查询方式：高亮查询
+        TermsQueryBuilder termsQueryBuilder =
+                QueryBuilders.termsQuery("name","zhangsan");
+        //设置查询方式
+        sourceBuilder.query(termsQueryBuilder);
+        //构建高亮字段
+        HighlightBuilder highlightBuilder = new HighlightBuilder();
+        highlightBuilder.preTags("<font color='red'>");//设置标签前缀
+        highlightBuilder.postTags("</font>");//设置标签后缀
+        highlightBuilder.field("name");//设置高亮字段
+        //设置高亮构建对象
+        sourceBuilder.highlighter(highlightBuilder);
+        //设置请求体
+        request.source(sourceBuilder);
+        //3.客户端发送请求，获取响应对象
+        SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+        //4.打印响应结果
+        SearchHits hits = response.getHits();
+        System.out.println("took::"+response.getTook());
+        System.out.println("time_out::"+response.isTimedOut());
+        System.out.println("total::"+hits.getTotalHits());
+        System.out.println("max_score::"+hits.getMaxScore());
+        System.out.println("hits::::>>");
+        for (SearchHit hit : hits) {
+            String sourceAsString = hit.getSourceAsString();
+            System.out.println(sourceAsString);
+            //打印高亮结果
+            Map<String, HighlightField> highlightFields = hit.getHighlightFields();
+            System.out.println(highlightFields);
+        }
+        System.out.println("<<::::");
+    };
+
+
+    public static void main(String[] args) {
+        ConnectElasticsearch.connect(SEARCH_WITH_HIGHLIGHT);
+    }
+
+}
+```
+
+控制台输出
+```
+took::672ms
+time_out::false
+total::1 hits
+max_score::1.0
+hits::::>>
+{"name":"zhangsan","age":"10","sex":"女"}
+{name=[name], fragments[[<font color='red'>zhangsan</font>]]}
+<<::::
+
+
+```
 
 
 #### 最大值查询
+```java
+public class QueryDoc {
+    
+    public static final ElasticsearchTask SEARCH_WITH_MAX = client -> {
+        // 高亮查询
+        SearchRequest request = new SearchRequest().indices("user");
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        sourceBuilder.aggregation(AggregationBuilders.max("maxAge").field("age"));
+        //设置请求体
+        request.source(sourceBuilder);
+        //3.客户端发送请求，获取响应对象
+        SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+        //4.打印响应结果
+        SearchHits hits = response.getHits();
+        System.out.println(response);
+    };
+
+    public static void main(String[] args) {
+        ConnectElasticsearch.connect(SEARCH_WITH_MAX);
+    }
+
+}
+```
+
+控制台输出
+```
+{"took":16,"timed_out":false,"_shards":{"total":1,"successful":1,"skipped":0,"failed":0},"hits":{"total":{"value":6,"relation":"eq"},"max_score":1.0,"hits":[{"_index":"user","_type":"_doc","_id":"1001","_score":1.0,"_source":{"name":"zhangsan","age":"10","sex":"女"}},{"_index":"user","_type":"_doc","_id":"1002","_score":1.0,"_source":{"name":"lisi","age":"30","sex":"女"}},{"_index":"user","_type":"_doc","_id":"1003","_score":1.0,"_source":{"name":"wangwu1","age":"40","sex":"男"}},{"_index":"user","_type":"_doc","_id":"1004","_score":1.0,"_source":{"name":"wangwu2","age":"20","sex":"女"}},{"_index":"user","_type":"_doc","_id":"1005","_score":1.0,"_source":{"name":"wangwu3","age":"50","sex":"男"}},{"_index":"user","_type":"_doc","_id":"1006","_score":1.0,"_source":{"name":"wangwu4","age":"20","sex":"男"}}]},"aggregations":{"max#maxAge":{"value":50.0}}}
+
+```
 
 
 #### 分组查询
+```java
+public class QueryDoc {
+
+	public static final ElasticsearchTask SEARCH_WITH_GROUP = client -> {
+        SearchRequest request = new SearchRequest().indices("user");
+        SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+        sourceBuilder.aggregation(AggregationBuilders.terms("age_groupby").field("age"));
+        //设置请求体
+        request.source(sourceBuilder);
+        //3.客户端发送请求，获取响应对象
+        SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+        //4.打印响应结果
+        SearchHits hits = response.getHits();
+        System.out.println(response);
+    };
+
+    public static void main(String[] args) {
+        ConnectElasticsearch.connect(SEARCH_WITH_GROUP);
+    }
+
+}
+```
+
+控制台输出
+```
+{"took":10,"timed_out":false,"_shards":{"total":1,"successful":1,"skipped":0,"failed":0},"hits":{"total":{"value":6,"relation":"eq"},"max_score":1.0,"hits":[{"_index":"user","_type":"_doc","_id":"1001","_score":1.0,"_source":{"name":"zhangsan","age":"10","sex":"女"}},{"_index":"user","_type":"_doc","_id":"1002","_score":1.0,"_source":{"name":"lisi","age":"30","sex":"女"}},{"_index":"user","_type":"_doc","_id":"1003","_score":1.0,"_source":{"name":"wangwu1","age":"40","sex":"男"}},{"_index":"user","_type":"_doc","_id":"1004","_score":1.0,"_source":{"name":"wangwu2","age":"20","sex":"女"}},{"_index":"user","_type":"_doc","_id":"1005","_score":1.0,"_source":{"name":"wangwu3","age":"50","sex":"男"}},{"_index":"user","_type":"_doc","_id":"1006","_score":1.0,"_source":{"name":"wangwu4","age":"20","sex":"男"}}]},"aggregations":{"lterms#age_groupby":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":20,"doc_count":2},{"key":10,"doc_count":1},{"key":30,"doc_count":1},{"key":40,"doc_count":1},{"key":50,"doc_count":1}]}}}
+
+Process finished with exit code 0
+```

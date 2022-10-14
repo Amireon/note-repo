@@ -22,8 +22,8 @@
 
 # 搜索技术
 ## Elasticsearch 
-- [第2章 Elasticsearch 入门](计算机组成原理/2.Elasticsearch 入门.md)
-- [第3章 Elasticsearch环境搭建](Elasticsearch/2.Elasticsearch 入门.md)
+- [第2章 Elasticsearch 入门](Elasticsearch/2.Elasticsearch入门.md)
+- [第3章 Elasticsearch环境搭建](Elasticsearch/3.Elasticsearch环境搭建.md)
 - [第4章 Elasticsearch进阶](Elasticsearch/4.Elasticsearch进阶.md)
 - [第5章 Elasticsearch集成](Elasticsearch/5.Elasticsearch集成.md)
 - [第6章 Elasticsearch优化](Elasticsearch/6.Elasticsearch优化)

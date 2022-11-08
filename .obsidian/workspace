@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JVM/1_内存与垃圾回收篇/05_堆.md",
+            "file": "Selenium.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JVM/1_内存与垃圾回收篇/05_堆.md",
+                "file": "Selenium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JVM/1_内存与垃圾回收篇/05_堆.md",
+                "file": "Selenium.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JVM/1_内存与垃圾回收篇/05_堆.md"
+                "file": "Selenium.md"
               }
             }
           },
@@ -146,9 +146,9 @@
   },
   "active": "e34aa37496849d36",
   "lastOpenFiles": [
+    "JVM/1_内存与垃圾回收篇/05_堆.md",
     "JVM/1_内存与垃圾回收篇/Java查看字节码.md",
     "JVM/1_内存与垃圾回收篇/JVisualVm查看堆内存.md",
-    "JVM/1_内存与垃圾回收篇/05_堆.md",
     "JVM/1_内存与垃圾回收篇/04_虚拟机栈.md",
     "计算机网络-自顶向下.md",
     "计算机组成原理/第8章-CPU的结构和功能.md",

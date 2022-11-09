@@ -1,4 +1,37 @@
-Selenium新版本（4）元素定位的八种方式：
+一段时间没有使用 Selenium，当再次使用时发现之前写的 Selenium 元素定位的代码运行之后会报错，发现是Selenium更新到新版本（4.x版本）后，以前的一些常用的代码的语法发生了改变。
+当然如果没有更新过或是下载最新版本的Selenium是不受到影响的，还可以使用以前的写法。
+接下来就是讨论有新版本 Selenium 的部分新语法。
+
+## 改动一：获取webdriver对象
+旧版本 Selenium 语法：
+```python
+from selenium import webdriver
+driver_path = '/home/yan/Python/chromeselenium/chromeselenium/chromedriver'
+driver = webdriber.Chrome(executable_path=driver_path)
+```
+也可以是如下形式：
+```python
+driver_path = "http://chromedriver.storage.googleapis.com/index.html?path=107.0.5304.62/chromedriver_win32.zip"
+```
+`executable_path`：Selenium 驱动的存放路径，只有指定出该路径，Selenium 才能正常工作
+
+但是 Selenium 经过版本更新之后，在使用如上写法时，系统就会报错，如下所示：
+
+![](https://ypic.oss-cn-hangzhou.aliyuncs.com/202211080925924.png)
+
+意思是：`executable_path` 已被弃用，请传入一个 Service 对象，于是我们就需要修改为如下代码：
+
+**新版本 Selenium 代码**：
+```python
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service  # 新增
+
+path = "http://chromedriver.storage.googleapis.com/index.html?path=107.0.5304.62/chromedriver_win32.zip"
+service = Service(executable_path=path)
+driver = webdriver.Chrome(service=service)
+```
+
+## 改动二：Selenium元素定位
 以百度首页为例，先访问
 ```python
 from  selenium import  webdriver
@@ -10,7 +43,6 @@ url = "http://www.baidu.com"
 driver.get(url)
 ```
 
-## 改动二：Selenium元素定位
 在版本没有更新前我们使用的都是`driver.find_element_by_方法名("value")`，
 - `方法名`：就是by_id、by_class_name、by_name等等，
 - `value`：传入的值，

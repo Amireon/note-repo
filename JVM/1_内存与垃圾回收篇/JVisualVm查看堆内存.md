@@ -21,4 +21,12 @@ public class HeapDemo {
 }
 ```
 
-t
+常用调优工具
+1.  JDK命令行
+2.  Eclipse：Memory Analyzer Tool
+3.  Jconsole
+4.  Visual VM（实时监控，推荐）
+5.  Jprofiler（IDEA插件）
+6.  Java Flight Recorder（实时监控）
+7.  GCViewer
+8.  GCEasy

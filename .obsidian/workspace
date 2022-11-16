@@ -7,11 +7,9 @@
         "id": "23c3605a6b586fd8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "JVM/1_内存与垃圾回收篇/05_堆.md",
-            "mode": "source",
-            "source": false
+            "file": "虚拟化/docker.png"
           }
         }
       }
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JVM/1_内存与垃圾回收篇/05_堆.md",
+                "file": "虚拟化/docker.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JVM/1_内存与垃圾回收篇/05_堆.md",
+                "file": "虚拟化/docker.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JVM/1_内存与垃圾回收篇/05_堆.md"
+                "file": "虚拟化/docker.png"
               }
             }
           },
@@ -146,15 +144,15 @@
   },
   "active": "23c3605a6b586fd8",
   "lastOpenFiles": [
-    "JVM/1_内存与垃圾回收篇/JVisualVm查看堆内存.md",
-    "JVM/1_内存与垃圾回收篇/05_堆.md",
-    "计算机网络-自顶向下/第1章计算机网络概述.md",
     "README.md",
-    "新版Selenium.md",
-    "大数据分析方法/人工智能.md",
-    "大数据分析方法/区块链数据隐私保护综述.md",
-    "Linux/tumx使用指北.md",
-    "Linux/Linux守护进程.md",
-    "JVM/1_内存与垃圾回收篇/Java查看字节码.md"
+    "虚拟化/网络虚拟化技术.png",
+    "虚拟化/gens3.png",
+    "虚拟化/kvm.png",
+    "虚拟化/vmware1.png",
+    "虚拟化/vmware3.jpg",
+    "虚拟化/vmware2.jpg",
+    "虚拟化/docker.png",
+    "云架构与虚拟化/未命名.md",
+    "JVM/1_内存与垃圾回收篇/05_堆.md"
   ]
 }

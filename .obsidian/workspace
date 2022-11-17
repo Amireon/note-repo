@@ -7,9 +7,11 @@
         "id": "23c3605a6b586fd8",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "虚拟化/docker.png"
+            "file": "JVM/1_内存与垃圾回收篇/05_堆.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -75,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "虚拟化/docker.png",
+                "file": "JVM/1_内存与垃圾回收篇/05_堆.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "虚拟化/docker.png",
+                "file": "JVM/1_内存与垃圾回收篇/05_堆.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "虚拟化/docker.png"
+                "file": "JVM/1_内存与垃圾回收篇/05_堆.md"
               }
             }
           },
@@ -144,15 +146,15 @@
   },
   "active": "23c3605a6b586fd8",
   "lastOpenFiles": [
+    "新版Selenium.md",
+    "JVM/1_内存与垃圾回收篇/05_堆.md",
+    "虚拟化/docker.png",
     "README.md",
     "虚拟化/网络虚拟化技术.png",
     "虚拟化/gens3.png",
     "虚拟化/kvm.png",
     "虚拟化/vmware1.png",
     "虚拟化/vmware3.jpg",
-    "虚拟化/vmware2.jpg",
-    "虚拟化/docker.png",
-    "云架构与虚拟化/未命名.md",
-    "JVM/1_内存与垃圾回收篇/05_堆.md"
+    "虚拟化/vmware2.jpg"
   ]
 }

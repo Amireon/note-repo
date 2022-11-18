@@ -1,7 +1,7 @@
 {
   "cssTheme": "Blue Topaz",
   "theme": "obsidian",
-  "translucency": true,
+  "translucency": false,
   "textFontFamily": "",
   "monospaceFontFamily": "MesloLGS NF",
   "baseFontSize": 15

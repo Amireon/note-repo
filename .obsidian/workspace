@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "计算机组成原理/第8章-CPU的结构和功能.md",
+            "file": "计算机组成原理/第9章-控制单元的功能.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机组成原理/第8章-CPU的结构和功能.md",
+                "file": "计算机组成原理/第9章-控制单元的功能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机组成原理/第8章-CPU的结构和功能.md",
+                "file": "计算机组成原理/第9章-控制单元的功能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机组成原理/第8章-CPU的结构和功能.md"
+                "file": "计算机组成原理/第9章-控制单元的功能.md"
               }
             }
           },
@@ -142,19 +142,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.33334350585938
+    "width": 256.3333435058594
   },
   "active": "b109501ee6091240",
   "lastOpenFiles": [
+    "计算机组成原理/第8章-CPU的结构和功能.md",
+    "计算机组成原理/第9章-控制单元的功能.md",
+    "计算机组成原理/第7章-指令系统.md",
+    "新版Selenium的改动.md",
     "JVM/1_内存与垃圾回收篇/05_堆.md",
-    "新版Selenium.md",
     "虚拟化/docker.png",
     "README.md",
     "虚拟化/网络虚拟化技术.png",
     "虚拟化/gens3.png",
-    "虚拟化/kvm.png",
-    "虚拟化/vmware1.png",
-    "虚拟化/vmware3.jpg",
-    "虚拟化/vmware2.jpg"
+    "虚拟化/kvm.png"
   ]
 }

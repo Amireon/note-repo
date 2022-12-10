@@ -9,7 +9,7 @@
         "state": {
           "type": "image",
           "state": {
-            "file": "虚拟化/openstack6.jpg"
+            "file": "虚拟化/vwamre/vmware3.jpg"
           }
         }
       }
@@ -75,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "虚拟化/openstack6.jpg",
+                "file": "虚拟化/vwamre/vmware3.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "虚拟化/openstack6.jpg",
+                "file": "虚拟化/vwamre/vmware3.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "虚拟化/openstack6.jpg"
+                "file": "虚拟化/vwamre/vmware3.jpg"
               }
             }
           },
@@ -142,17 +142,17 @@
     "direction": "horizontal",
     "width": 260.3333435058594
   },
-  "active": "b109501ee6091240",
+  "active": "672f66d7a432d1f2",
   "lastOpenFiles": [
-    "虚拟化/openstack5.jpg",
-    "虚拟化/openstack4.jpg",
-    "虚拟化/openstack3.jpg",
-    "虚拟化/openstack2.jpg",
-    "虚拟化/openstack1.jpg",
-    "虚拟化/网络虚拟化技术.png",
-    "虚拟化/openstack6.jpg",
-    "计算机组成原理/第5章-系统总线.md",
-    "计算机组成原理/第10章-控制单元的设计.md",
-    "计算机组成原理/第9章-控制单元的功能.md"
+    "虚拟化/kvm.png",
+    "虚拟化/vwamre/vmware2.jpg",
+    "虚拟化/vwamre/vmware1.png",
+    "虚拟化/openstack/openstack6.jpg",
+    "虚拟化/openstack/openstack5.jpg",
+    "虚拟化/openstack/openstack4.jpg",
+    "虚拟化/openstack/openstack3.jpg",
+    "虚拟化/openstack/openstack2.jpg",
+    "虚拟化/openstack/openstack1.jpg",
+    "虚拟化/网络虚拟化技术.png"
   ]
 }

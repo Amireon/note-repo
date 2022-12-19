@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "计算机组成原理/期末知识点.md",
+            "file": "计算机组成原理/第4章-存储器.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机组成原理/期末知识点.md",
+                "file": "计算机组成原理/第4章-存储器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机组成原理/期末知识点.md",
+                "file": "计算机组成原理/第4章-存储器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机组成原理/期末知识点.md"
+                "file": "计算机组成原理/第4章-存储器.md"
               }
             }
           },
@@ -146,6 +146,7 @@
   },
   "active": "23c3605a6b586fd8",
   "lastOpenFiles": [
+    "计算机组成原理/期末知识点.md",
     "计算机组成原理/第5章-系统总线.md",
     "README.md",
     "软件工程期末知识点.md",
@@ -154,7 +155,6 @@
     "计算机组成原理/第4章-存储器.md",
     "![Uploading.md",
     "计算机组成原理/第3章-系统总线.md",
-    "虚拟化/openstack/openstack1.jpg",
-    "虚拟化/vwamre/vmware3.jpg"
+    "虚拟化/openstack/openstack1.jpg"
   ]
 }

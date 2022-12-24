@@ -9,7 +9,7 @@
         "state": {
           "type": "image",
           "state": {
-            "file": "虚拟化/openstack/openstack4.jpg"
+            "file": "虚拟化/openstack/openstack6.jpg"
           }
         }
       }
@@ -75,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "虚拟化/openstack/openstack4.jpg",
+                "file": "虚拟化/openstack/openstack6.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "虚拟化/openstack/openstack4.jpg",
+                "file": "虚拟化/openstack/openstack6.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "虚拟化/openstack/openstack4.jpg"
+                "file": "虚拟化/openstack/openstack6.jpg"
               }
             }
           },
@@ -149,10 +149,10 @@
     "虚拟化/openstack/openstack3.jpg",
     "虚拟化/openstack/openstack2.jpg",
     "虚拟化/openstack/openstack1.jpg",
+    "虚拟化/docker.png",
     "软件工程期末知识点.md",
     "计算机组成原理/第4章-存储器.md",
     "计算机组成原理/期末知识点.md",
-    "计算机组成原理/第5章-系统总线.md",
-    "README.md"
+    "计算机组成原理/第5章-系统总线.md"
   ]
 }

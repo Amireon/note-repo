@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "计算机网络-自顶向下/第4章-网络层.md",
+            "file": "计算机网络-自顶向下/第5章-网络层控制平面.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机网络-自顶向下/第4章-网络层.md",
+                "file": "计算机网络-自顶向下/第5章-网络层控制平面.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机网络-自顶向下/第4章-网络层.md",
+                "file": "计算机网络-自顶向下/第5章-网络层控制平面.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机网络-自顶向下/第4章-网络层.md"
+                "file": "计算机网络-自顶向下/第5章-网络层控制平面.md"
               }
             }
           },
@@ -146,6 +146,7 @@
   },
   "active": "c517017ff30f3982",
   "lastOpenFiles": [
+    "计算机网络-自顶向下/第4章-网络层.md",
     "虚拟化/openstack/openstack2.jpg",
     "虚拟化/openstack/openstack1.jpg",
     "计算机网络-自顶向下/第3章-传输层.md",
@@ -154,7 +155,6 @@
     "计算机网络-自顶向下/1.4接入网和物理媒体.md",
     "虚拟化/vwamre/vmware1.png",
     "虚拟化/openstack/openstack6.jpg",
-    "虚拟化/openstack/openstack5.jpg",
-    "虚拟化/openstack/openstack4.jpg"
+    "虚拟化/openstack/openstack5.jpg"
   ]
 }

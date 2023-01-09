@@ -12,5 +12,6 @@
   },
   "legacyEditor": false,
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "strictLineBreaks": true
 }

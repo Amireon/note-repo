@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "计算机网络-自顶向下/第5章-网络层控制平面.md",
+            "file": "计算机网络-自顶向下/第6章-链路层和局域网.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机网络-自顶向下/第5章-网络层控制平面.md",
+                "file": "计算机网络-自顶向下/第6章-链路层和局域网.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机网络-自顶向下/第5章-网络层控制平面.md",
+                "file": "计算机网络-自顶向下/第6章-链路层和局域网.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机网络-自顶向下/第5章-网络层控制平面.md"
+                "file": "计算机网络-自顶向下/第6章-链路层和局域网.md"
               }
             }
           },
@@ -146,8 +146,8 @@
   },
   "active": "03705d1c0bfcbc87",
   "lastOpenFiles": [
-    "计算机网络-自顶向下/第4章-网络层数据平面.md",
     "计算机网络-自顶向下/第5章-网络层控制平面.md",
+    "计算机网络-自顶向下/第4章-网络层数据平面.md",
     "计算机网络-自顶向下/第3章-传输层.md",
     "计算机网络-自顶向下/第2章-应用层原理.md",
     "计算机网络-自顶向下/第6章-链路层和局域网.md",

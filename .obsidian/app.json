@@ -12,6 +12,7 @@
   },
   "legacyEditor": false,
   "alwaysUpdateLinks": true,
-  "promptDelete": false,
-  "strictLineBreaks": true
+  "promptDelete": true,
+  "strictLineBreaks": true,
+  "newFileLocation": "current"
 }

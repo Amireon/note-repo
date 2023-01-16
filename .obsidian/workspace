@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "操作系统_王道/第2章-进程.md",
+            "file": "操作系统_王道/第3章-内存.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统_王道/第2章-进程.md",
+                "file": "操作系统_王道/第3章-内存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统_王道/第2章-进程.md",
+                "file": "操作系统_王道/第3章-内存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统_王道/第2章-进程.md"
+                "file": "操作系统_王道/第3章-内存.md"
               }
             }
           },
@@ -148,13 +148,13 @@
   "lastOpenFiles": [
     "操作系统_王道/小结知识回顾与重要考点.md",
     "操作系统_王道/第2章-进程.md",
+    "操作系统_王道/第3章-内存.md",
     "README.md",
     "操作系统_王道/().md",
     "操作系统_王道/第1章-操作系统概述.md",
     "On Java 8 阅读思考.md",
     "计算机网络-自顶向下/第2章-应用层原理.md",
     "计算机网络-自顶向下/第6章-链路层和局域网.md",
-    "计算机网络-自顶向下/第5章-网络层控制平面.md",
-    "计算机网络-自顶向下/第4章-网络层数据平面.md"
+    "计算机网络-自顶向下/第5章-网络层控制平面.md"
   ]
 }

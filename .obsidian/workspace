@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JVM/1_内存与垃圾回收篇/05_堆.md",
+            "file": "JVM/1_内存与垃圾回收篇/09_方法区.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JVM/1_内存与垃圾回收篇/05_堆.md",
+                "file": "JVM/1_内存与垃圾回收篇/09_方法区.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JVM/1_内存与垃圾回收篇/05_堆.md",
+                "file": "JVM/1_内存与垃圾回收篇/09_方法区.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JVM/1_内存与垃圾回收篇/05_堆.md"
+                "file": "JVM/1_内存与垃圾回收篇/09_方法区.md"
               }
             }
           },
@@ -144,10 +144,10 @@
     "direction": "horizontal",
     "width": 259.3333435058594
   },
-  "active": "5d0bc622dbb8ffa1",
+  "active": "74be73d743ea6533",
   "lastOpenFiles": [
-    "On Java 8 阅读思考.md",
     "JVM/1_内存与垃圾回收篇/05_堆.md",
+    "On Java 8 阅读思考.md",
     "JVM/1_内存与垃圾回收篇/02_类加载子系统.md",
     "JVM/1_内存与垃圾回收篇/01_JVM与Java体系结构.md",
     "JVM/1_内存与垃圾回收篇/03_运行时数据区.md",

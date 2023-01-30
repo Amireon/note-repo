@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JVM/1_内存与垃圾回收篇/12_垃圾回收相关概念.md",
+            "file": "JVM/1_内存与垃圾回收篇/13_垃圾回收器.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JVM/1_内存与垃圾回收篇/12_垃圾回收相关概念.md",
+                "file": "JVM/1_内存与垃圾回收篇/13_垃圾回收器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JVM/1_内存与垃圾回收篇/12_垃圾回收相关概念.md",
+                "file": "JVM/1_内存与垃圾回收篇/13_垃圾回收器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JVM/1_内存与垃圾回收篇/12_垃圾回收相关概念.md"
+                "file": "JVM/1_内存与垃圾回收篇/13_垃圾回收器.md"
               }
             }
           },
@@ -144,17 +144,17 @@
     "direction": "horizontal",
     "width": 259.3333435058594
   },
-  "active": "74be73d743ea6533",
+  "active": "672f66d7a432d1f2",
   "lastOpenFiles": [
-    "JVM/1_内存与垃圾回收篇/11_垃圾回收算法.md",
-    "JVM/1_内存与垃圾回收篇/10_垃圾回收概述.md",
-    "JVM/1_内存与垃圾回收篇/09_StringTable.md",
-    "JVM/1_内存与垃圾回收篇/06_方法区.md",
-    "JVM/1_内存与垃圾回收篇/08_执行引擎.md",
-    "JVM/1_内存与垃圾回收篇/07_对象的实例化内存布局与访问定位.md",
-    "JVM/1_内存与垃圾回收篇/Java查看字节码.md",
-    "JVM/1_内存与垃圾回收篇/02_类加载子系统.md",
-    "JVM/1_内存与垃圾回收篇/05_堆.md",
-    "On Java 8 阅读思考.md"
+    "虚拟化/gens3.png",
+    "虚拟化/kvm.png",
+    "虚拟化/网络虚拟化技术.png",
+    "虚拟化/openstack/openstack6.jpg",
+    "虚拟化/openstack/openstack5.jpg",
+    "虚拟化/openstack/openstack4.jpg",
+    "虚拟化/openstack/openstack3.jpg",
+    "虚拟化/openstack/openstack2.jpg",
+    "虚拟化/openstack/openstack1.jpg",
+    "虚拟化/docker.png"
   ]
 }

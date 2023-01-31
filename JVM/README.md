@@ -1,7 +1,9 @@
 # JVM系列
->1.本系列来自尚硅谷的JVM视频教程: https://www.bilibili.com/video/BV1PJ411n7xZ?spm_id_from=333.337.search-card.all.click
->
->2.本系列主要面向Java8的虚拟机，特殊情况会进行标注
+本系列来自尚硅谷宋红康老师在B站发布的JVM视频教程:
+
+【尚硅谷宋红康JVM全套教程（详解java虚拟机）】 https://www.bilibili.com/video/BV1PJ411n7xZ/?p=204&share_source=copy_web&vd_source=5b0923b5973d18ee775eba8b055a9ef9
+
+全套课程分为《内存与垃圾回收篇》《字节码与类的加载篇》《性能监控与调优篇》三个篇章，后添加第四篇《大厂面试篇》
 
 ## 内存与垃圾回收篇
 1. JVM与Java体系结构
@@ -17,3 +19,9 @@
 11. 垃圾回收算法
 12. 垃圾回收相关概念
 13. 垃圾回收器
+
+## 字节码与类的加载篇
+
+## 性能监控与调优篇
+
+## 大厂面试篇

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "数据结构/第2章-线性表.md",
+            "file": "数据结构/第7章-图.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构/第2章-线性表.md",
+                "file": "数据结构/第7章-图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构/第2章-线性表.md",
+                "file": "数据结构/第7章-图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构/第2章-线性表.md"
+                "file": "数据结构/第7章-图.md"
               }
             }
           },
@@ -144,10 +144,10 @@
     "direction": "horizontal",
     "width": 259.3333435058594
   },
-  "active": "672f66d7a432d1f2",
+  "active": "5b5a91cea0a52242",
   "lastOpenFiles": [
-    "数据结构/codes/SqList.cpp.md",
     "数据结构/第2章-线性表.md",
+    "数据结构/codes/SqList.cpp.md",
     "数据结构/README.md",
     "计算机组成原理/README.md",
     "计算机组成原理/未命名.md",

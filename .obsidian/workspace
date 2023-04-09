@@ -122,14 +122,6 @@
             }
           },
           {
-            "id": "b109501ee6091240",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "26bd1d7569b46579",
             "type": "leaf",
             "state": {
@@ -146,15 +138,15 @@
   },
   "active": "5b5a91cea0a52242",
   "lastOpenFiles": [
+    "Python/关于ini配置文件的编写.md",
+    "Python/Selenium新版本的改动.md",
+    "README.md",
     "杂谈/关于commit的编写.md",
     "JVM/1_内存与垃圾回收篇/02_类加载子系统.md",
     "JVM/1_内存与垃圾回收篇/().md",
-    "杂谈/Selenium新版本的改动.md",
     "杂谈/On Java 8 阅读思考.md",
-    "README.md",
     "杂谈/期末考试知识点/软件工程.md",
     "杂谈/期末考试知识点/计算机组成原理.md",
-    "计算机组成原理/考研大纲.md",
-    "408/计算机组成原理/第3章-系统总线.md"
+    "计算机组成原理/考研大纲.md"
   ]
 }

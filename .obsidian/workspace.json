@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Scrapy的简单使用.md",
+                "file": "Python/Scrapy.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python使用代理的几种方式.md",
+                "file": "Python/Scrapy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python使用代理的几种方式.md",
+                "file": "Python/Scrapy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python使用代理的几种方式.md"
+                "file": "Python/Scrapy.md"
               }
             }
           },
@@ -180,10 +180,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "506ec219cf2b3635",
+  "active": "d7191f30c8245a6a",
   "lastOpenFiles": [
-    "Python/Scrapy的简单使用.md",
     "Python/Python使用代理的几种方式.md",
+    "Python/未命名.md",
+    "Python/Scrapy.md",
     "Python/关于ini配置文件的编写.md",
     "Python/Selenium新版本的改动.md",
     "README.md",

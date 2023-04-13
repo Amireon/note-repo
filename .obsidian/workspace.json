@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "087318b00b0641d1",
+        "id": "58ac910797c25ce1",
         "type": "tabs",
         "children": [
           {
-            "id": "5b5a91cea0a52242",
+            "id": "0698a588e2258395",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Python/关于ini配置文件的编写.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7191f30c8245a6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Scrapy的简单使用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "506ec219cf2b3635",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Python使用代理的几种方式.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Python/Python使用代理的几种方式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Python/Python使用代理的几种方式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Python/Python使用代理的几种方式.md"
               }
             }
           },
@@ -155,8 +180,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5b5a91cea0a52242",
+  "active": "506ec219cf2b3635",
   "lastOpenFiles": [
+    "Python/Scrapy的简单使用.md",
+    "Python/Python使用代理的几种方式.md",
     "Python/关于ini配置文件的编写.md",
     "Python/Selenium新版本的改动.md",
     "README.md",

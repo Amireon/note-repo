@@ -6,5 +6,6 @@
   "monospaceFontFamily": "MesloLGS NF",
   "baseFontSize": 18,
   "interfaceFontFamily": "MesloLGL NF",
-  "accentColor": ""
+  "accentColor": "",
+  "nativeMenus": false
 }

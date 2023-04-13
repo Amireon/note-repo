@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "e7db063f8d1d62bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "087318b00b0641d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b5a91cea0a52242",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38d66ac2f5cc68e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3e2bc41aa297833",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "672f66d7a432d1f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3a581ed537ab493c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "472fab82bc62b4ce",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 227
+  },
+  "right": {
+    "id": "3bf1196ed50dd6c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "ace3887b5ca73557",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25b85a278417a3d4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "91aaad11a13e04e2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "189b407fac7223fd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5d0bc622dbb8ffa1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "26bd1d7569b46579",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 259.3333435058594
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "5b5a91cea0a52242",
+  "lastOpenFiles": [
+    "Python/关于ini配置文件的编写.md",
+    "Python/Selenium新版本的改动.md",
+    "README.md",
+    "杂谈/关于commit的编写.md",
+    "JVM/1_内存与垃圾回收篇/02_类加载子系统.md",
+    "JVM/1_内存与垃圾回收篇/().md",
+    "杂谈/On Java 8 阅读思考.md",
+    "杂谈/期末考试知识点/软件工程.md",
+    "杂谈/期末考试知识点/计算机组成原理.md",
+    "计算机组成原理/考研大纲.md"
+  ]
+}

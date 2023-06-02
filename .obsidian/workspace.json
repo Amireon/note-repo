@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0698a588e2258395",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/关于ini配置文件的编写.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7191f30c8245a6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Scrapy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "506ec219cf2b3635",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Scrapy.md",
+                "file": "Python/Python使用代理的几种方式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Scrapy.md",
+                "file": "Python/Python使用代理的几种方式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Scrapy.md"
+                "file": "Python/Python使用代理的几种方式.md"
               }
             }
           },
@@ -180,12 +155,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d7191f30c8245a6a",
+  "active": "506ec219cf2b3635",
   "lastOpenFiles": [
+    "Python/关于ini配置文件的编写.md",
+    "Python/Scrapy.md",
     "Python/Python使用代理的几种方式.md",
     "Python/未命名.md",
-    "Python/Scrapy.md",
-    "Python/关于ini配置文件的编写.md",
     "Python/Selenium新版本的改动.md",
     "README.md",
     "杂谈/关于commit的编写.md",

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "800b47e76acc3ac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/未命名 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python使用代理的几种方式.md",
+                "file": "Python/未命名 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python使用代理的几种方式.md",
+                "file": "Python/未命名 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python使用代理的几种方式.md"
+                "file": "Python/未命名 1.md"
               }
             }
           },
@@ -155,11 +168,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "506ec219cf2b3635",
+  "active": "800b47e76acc3ac2",
   "lastOpenFiles": [
+    "Python/Python使用代理的几种方式.md",
+    "Python/未命名 1.md",
+    "单片机",
     "Python/关于ini配置文件的编写.md",
     "Python/Scrapy.md",
-    "Python/Python使用代理的几种方式.md",
     "Python/未命名.md",
     "Python/Selenium新版本的改动.md",
     "README.md",

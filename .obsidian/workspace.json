@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227
+    "width": 227,
+    "collapsed": true
   },
   "right": {
     "id": "3bf1196ed50dd6c4",
@@ -155,7 +156,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "672f66d7a432d1f2",
+  "active": "8687fd22a097c75a",
   "lastOpenFiles": [
     "杂谈/期末复习/操作系统习题.md",
     "杂谈/期末复习",

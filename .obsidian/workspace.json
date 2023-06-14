@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "58ac910797c25ce1",
+        "id": "826b50948a19a45f",
         "type": "tabs",
         "children": [
           {
-            "id": "506ec219cf2b3635",
+            "id": "8687fd22a097c75a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python使用代理的几种方式.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "800b47e76acc3ac2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/未命名 1.md",
+                "file": "杂谈/期末复习/操作系统习题.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/未命名 1.md",
+                "file": "杂谈/期末复习/操作系统习题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/未命名 1.md",
+                "file": "杂谈/期末复习/操作系统习题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/未命名 1.md"
+                "file": "杂谈/期末复习/操作系统习题.md"
               }
             }
           },
@@ -168,8 +155,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "800b47e76acc3ac2",
+  "active": "672f66d7a432d1f2",
   "lastOpenFiles": [
+    "杂谈/期末复习/操作系统习题.md",
+    "杂谈/期末复习",
     "Python/Python使用代理的几种方式.md",
     "Python/未命名 1.md",
     "单片机",

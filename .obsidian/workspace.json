@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂谈/期末复习/编译原理期末复习.md",
+                "file": "杂谈/期末复习/操作系统期末复习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂谈/期末复习/编译原理期末复习.md",
+                "file": "杂谈/期末复习/操作系统期末复习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂谈/期末复习/编译原理期末复习.md"
+                "file": "杂谈/期末复习/操作系统期末复习.md"
               }
             }
           },
@@ -169,10 +168,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2744995b4ecc6101",
+  "active": "8687fd22a097c75a",
   "lastOpenFiles": [
-    "杂谈/期末复习/操作系统期末复习.md",
     "杂谈/期末复习/编译原理期末复习.md",
+    "杂谈/期末复习/操作系统期末复习.md",
     "未命名.canvas",
     "杂谈/期末复习",
     "Python/Python使用代理的几种方式.md",

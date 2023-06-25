@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "2744995b4ecc6101",
+            "id": "9e04a2e74cd3090f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "408/计算机网络-自顶向下/第6章-链路层和局域网.md",
+                "file": "杂谈/期末复习/编译原理期末复习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "408/计算机网络-自顶向下/第6章-链路层和局域网.md",
+                "file": "杂谈/期末复习/编译原理期末复习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "408/计算机网络-自顶向下/第6章-链路层和局域网.md"
+                "file": "杂谈/期末复习/编译原理期末复习.md"
               }
             }
           },
@@ -162,8 +163,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,20 +180,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8687fd22a097c75a",
+  "active": "5d0bc622dbb8ffa1",
   "lastOpenFiles": [
+    "单片机/微机课设/课程设计报告.md",
     "408/计算机网络-自顶向下/计算机网络期末考试复习.md",
     "408/计算机网络-自顶向下/第6章-链路层和局域网.md",
-    "408/计算机网络-自顶向下/第1章-计算机网络概述.md",
+    "单片机/微机课设/PCB/原理图.png",
+    "单片机/微机课设/PCB/PCB图.png",
+    "单片机/微机课设/PCB/MCUPCB.eprj",
+    "单片机/微机课设/PCB",
+    "单片机/微机课设/code/tm1637.c",
+    "单片机/微机课设/code/tm1637.h",
+    "单片机/微机课设/code/sensor.h",
+    "单片机/微机课设/code/delay.h",
+    "单片机/微机课设/code/sensor.c",
+    "单片机/微机课设/code/main.c",
+    "单片机/微机课设/code/delay.c",
+    "单片机/微机课设/code/beep.h",
+    "单片机/微机课设/PCB文件/原理图.png",
+    "单片机/微机课设/PCB文件/PCB图.png",
+    "未命名.canvas",
     "杂谈/期末复习/编译原理期末复习.md",
+    "408/计算机网络-自顶向下/第1章-计算机网络概述.md",
     "408/计算机网络-自顶向下/README.md",
     "408/计算机网络-自顶向下/第2章-应用层原理.md",
     "杂谈/期末复习/操作系统期末复习.md",
-    "未命名.canvas",
-    "杂谈/期末复习",
     "Python/Python使用代理的几种方式.md",
     "Python/未命名 1.md",
-    "单片机",
     "Python/关于ini配置文件的编写.md",
     "Python/Scrapy.md",
     "Python/未命名.md",

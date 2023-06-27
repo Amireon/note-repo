@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "04a9641a65d0851a",
+        "id": "7da2cab083d3269d",
         "type": "tabs",
         "children": [
           {
-            "id": "8687fd22a097c75a",
+            "id": "93a7feb154e8caf3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "408/计算机网络-自顶向下/第6章-链路层和局域网.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ccb7481b0237345",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "408/计算机网络-自顶向下/计算机网络期末考试复习.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e04a2e74cd3090f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "杂谈/期末复习/编译原理期末复习.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227,
-    "collapsed": true
+    "width": 227
   },
   "right": {
     "id": "3bf1196ed50dd6c4",
@@ -111,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "408/计算机网络-自顶向下/计算机网络期末考试复习.md",
+                "file": "Python/Scrapy基本使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "408/计算机网络-自顶向下/计算机网络期末考试复习.md",
+                "file": "Python/Scrapy基本使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "408/计算机网络-自顶向下/计算机网络期末考试复习.md"
+                "file": "Python/Scrapy基本使用.md"
               }
             }
           },
@@ -181,36 +151,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5d0bc622dbb8ffa1",
+  "active": "672f66d7a432d1f2",
   "lastOpenFiles": [
-    "杂谈/期末复习/编译原理期末复习.md",
-    "单片机/微机课设/课程设计报告.md",
-    "408/计算机网络-自顶向下/计算机网络期末考试复习.md",
-    "408/计算机网络-自顶向下/第6章-链路层和局域网.md",
-    "单片机/微机课设/PCB/原理图.png",
-    "单片机/微机课设/PCB/PCB图.png",
-    "单片机/微机课设/PCB/MCUPCB.eprj",
-    "单片机/微机课设/PCB",
-    "单片机/微机课设/code/tm1637.c",
-    "单片机/微机课设/code/tm1637.h",
-    "单片机/微机课设/code/sensor.h",
-    "单片机/微机课设/code/delay.h",
-    "单片机/微机课设/code/sensor.c",
-    "单片机/微机课设/code/main.c",
-    "单片机/微机课设/code/delay.c",
-    "单片机/微机课设/code/beep.h",
+    "在校课程",
+    "Python/未命名 1.md",
+    "Python/未命名.md",
+    "在校课程/期末复习/计算机网络期末考试复习.md",
+    "在校课程/期末复习/编译原理期末复习.md",
+    "在校课程/微机课设/课程设计报告.md",
+    "在校课程/408/计算机网络-自顶向下/第6章-链路层和局域网.md",
+    "在校课程/微机课设/PCB/原理图.png",
+    "在校课程/微机课设/PCB/PCB图.png",
+    "在校课程/微机课设/PCB/MCUPCB.eprj",
+    "在校课程/微机课设/PCB",
+    "在校课程/微机课设/code/tm1637.c",
+    "在校课程/微机课设/code/tm1637.h",
+    "在校课程/微机课设/code/sensor.h",
+    "在校课程/微机课设/code/delay.h",
+    "在校课程/微机课设/code/sensor.c",
+    "在校课程/微机课设/code/main.c",
+    "在校课程/微机课设/code/delay.c",
+    "在校课程/微机课设/code/beep.h",
     "单片机/微机课设/PCB文件/原理图.png",
     "单片机/微机课设/PCB文件/PCB图.png",
     "未命名.canvas",
-    "408/计算机网络-自顶向下/第1章-计算机网络概述.md",
-    "408/计算机网络-自顶向下/README.md",
-    "408/计算机网络-自顶向下/第2章-应用层原理.md",
-    "杂谈/期末复习/操作系统期末复习.md",
+    "在校课程/408/计算机网络-自顶向下/第1章-计算机网络概述.md",
+    "在校课程/408/计算机网络-自顶向下/README.md",
+    "在校课程/408/计算机网络-自顶向下/第2章-应用层原理.md",
+    "在校课程/期末复习/操作系统期末复习.md",
     "Python/Python使用代理的几种方式.md",
-    "Python/未命名 1.md",
     "Python/关于ini配置文件的编写.md",
-    "Python/Scrapy.md",
-    "Python/未命名.md",
+    "Python/Scrapy基本使用.md",
     "Python/Selenium新版本的改动.md",
     "README.md",
     "杂谈/关于commit的编写.md",
